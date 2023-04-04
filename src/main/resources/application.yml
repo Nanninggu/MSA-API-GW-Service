@@ -31,7 +31,7 @@ spring:
         - id: order-service
           uri: lb://ORDER-SERVICE #second-service project's application name
           predicates:
-            - Path=/order-service/** #사용자가 입력한 조건값
+            - Path=/order-service/** #사용자가 입력한 조건값, test git hub
           filters:
 #            - AddRequestHeader=second-request, second-request-header2 #앞에값이 키값이고 뒤에값이 벨류이다.
 #            - AddResponseHeader=second-response, second-response-header2 #앞에값이 키값이고 뒤에값이 벨류이다.
